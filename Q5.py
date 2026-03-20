@@ -1,3 +1,6 @@
-a = int(input("Enter number : "))
-b = int(input("Enter nmber : "))
-print("Sum : ",(a+b),"\nProduct : ",(a*b))
+dict={
+    "Name":"Aditya",
+    "ROll no" : "33",
+    "Age" : "19"
+}
+print(dict)

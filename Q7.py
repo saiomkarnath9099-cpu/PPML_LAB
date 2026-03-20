@@ -1,7 +1,10 @@
-a = int(input("Enter mark : "))
-b = int(input("Enter mark : "))
-c = int(input("Enter mark : "))
-sum = a+b+c
-per = sum/3
-print("Total mark : ",sum)
-print("Percentage : ",per)
+a = int(input("Enter integer : "))
+b = input("Enter string : ")
+c = float(input("Enter float : "))
+d = bool(input("Enter a boolean value : "))
+e = complex(input("Entr a complex number : "))
+print("a is  : ",type(a))
+print("b is : ",type(b))
+print("c is : ",type(c))
+print("d is : ",type(d))
+print("e is : ",type(e))

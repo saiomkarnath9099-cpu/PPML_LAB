@@ -1,7 +1,5 @@
-name = input("Enter name : ")
-age = int(input("Enter age : "))
-address = input("Address : ")
-
-print("Name : ",name)
-print("Age : ",age)
-print("Address : ",address)
+a = input("Enter 1st name : ")
+b = input("Enter middle name : ")
+c = input("Enter last name : ")
+fullname = a+b+c
+print("Fullname : ",fullname)
